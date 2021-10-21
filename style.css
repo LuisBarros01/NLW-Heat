@@ -1,0 +1,72 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --white-tx-color: #fff;
+}
+
+main {
+  background: url(nlw/images/background.svg);
+  width: 375px;
+  height: 812px;
+  margin: 0 auto;
+}
+
+/*--- DESIGN ---*/
+
+.container {
+  height: 450px;
+  max-width: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main h1,
+.main a {
+  color: var(--white-tx-color);
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.main a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.desc {
+  color: var(--white-tx-color);
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.build {
+  position: absolute;
+  z-index: 999;
+  top: 10.88rem;
+}
+
+.icon {
+  margin-top: 11.88rem;
+  width: 10rem;
+  height: 11, 5rem;
+  object-fit: cover;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+/*--- Barra de redes sociais ---*/
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style: none;
+}
