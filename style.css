@@ -40,7 +40,7 @@ main {
   align-items: center;
 }
 
-.desc {
+#desc {
   color: var(--white-tx-color);
   text-align: center;
   margin: 2rem 0;
